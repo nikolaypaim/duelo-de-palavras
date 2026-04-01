@@ -18,3 +18,19 @@ function send(){
   let word = getWord.toLowerCase() ;
   
 }
+if(questionTurn == "player1") {
+  questionTurn = "player2";
+  document.getElementById("player-question").innerHTML = `turno de pergunta: ${player2Name}`
+    
+answerTurn == "player1"
+  document.getElementById("player-answer").innerHTML = `turno de resposta: ${player1Name}`
+}
+else{
+  (questionTurn == "player1")
+  document.getElementById("player-question").innerHTML = `turno de pergunta: ${player1Name}`
+
+  answerTurn == "player2"
+  document.getElementById("player-answer").innerHTML = `turno de resposta: ${player2Name}`
+   }
+  document.getElementById("output").innerHTML = "";
+}
